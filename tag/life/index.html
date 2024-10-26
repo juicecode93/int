@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>生活點滴 | 思途停泊</title>
+<meta name="description" content="稍縱即逝">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://juicecode93.github.io/int//favicon.ico?v=1729947666925">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://juicecode93.github.io/int//styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://juicecode93.github.io/int/">
+        <img class="avatar" src="https://juicecode93.github.io/int//images/avatar.png?v=1729947666925" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://juicecode93.github.io/int/">
+        <h1 class="site-title">思途停泊</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/int/" class="menu purple-link">
+            Top
+          </a>
+        
+      
+        
+          <a href="/int/archives" class="menu purple-link">
+            Archives
+          </a>
+        
+      
+        
+          <a href="/int/tags" class="menu purple-link">
+            Tags
+          </a>
+        
+      
+        
+          <a href="/int/post/about" class="menu purple-link">
+            About
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+
+        <div class="current-tag-container">
+          <h2 class="title">
+            <i class="icon icon-pricetags-outline"></i> 生活點滴
+          </h2> 
+        </div>
+
+        
+<section class="post-item">
+    <div class="content">
+      <a href="https://juicecode93.github.io/int/post/hello-gridea/">
+        <h2 class="post-title">初次使用</h2>
+      </a>
+      <div class="post-abstract">
+        <p>這邊可以寫前言</p>
+
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2018-12-12</span>
+        
+          <span>
+            <i class="icon icon-pricetags-outline"></i>
+            
+              <a href="https://juicecode93.github.io/int/tag/life/">
+                生活點滴
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://juicecode93.github.io/int/tag/tool/">
+                使用工具
+                
+                  ，
+                
+              </a>
+            
+              <a href="https://juicecode93.github.io/int/tag/5_QyrlBhMw/">
+                Gridea
+                
+              </a>
+            
+          </span>
+        
+      </div>
+    </div>
+    
+      <a href="https://juicecode93.github.io/int/post/hello-gridea/">
+        <div class="feature-container" style="background-image: url('https://juicecode93.github.io/int//post-images/hello-gridea.png')">
+        </div>
+      </a>
+    
+  </section>
+
+
+<div class="pagination-container">
+  
+  
+</div>
+
+
+      </div>
+
+      <div class="site-footer">
+  <div class="slogan">稍縱即逝</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  BY INT | <a class="rss" href="https://juicecode93.github.io/int//atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
